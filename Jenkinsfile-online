@@ -10,12 +10,12 @@ pipeline {
     }
 
     environment {
-        DOCKER_CREDENTIAL_ID = 'dockerhub-id'
-        GITHUB_CREDENTIAL_ID = 'github-id'
+        HARBOR_CREDENTIAL_ID = 'harbor-id'
+        GITEE_CREDENTIAL_ID = 'gitee-id'
         KUBECONFIG_CREDENTIAL_ID = 'demo-config'
-        REGISTRY = 'docker.io'
-        DOCKERHUB_NAMESPACE = 'weasper887-jack'
-        GITHUB_ACCOUNT = 'weasper887-jack'
+        REGISTRY = '10.28.32.169:808/library'
+        HARBOR_NAMESPACE = 'admin'
+        GITEE_ACCOUNT = '84035834@qq.com'
         APP_NAME = 'devops-java-sample'
     }
 
